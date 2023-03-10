@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding-top: 0px;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset;
+}
+.main {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid: gap 2px;
+}
+.column-left {
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(233, 136, 191, 0.936),
+    rgb(81, 173, 242)
+  );
+}
+nav > ul {
+  display: grid;
+  grid-auto-flow: column;
+}
+.column-right {
+  display: grid;
+  background-color: thistle;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+.first-child {
+  text-decoration: dotted;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: solid;
+  flex-wrap: wrap;
+  padding: 10px 5px;
+  height: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+}
+.txt-field {
+  position: absolute;
+  top: 70px;
+  left: 100vh;
+  height: 15px;
+  width: 40%;
+}
+.txt-field1 {
+  position: absolute;
+  top: 130px;
+  left: 100vh;
+  height: 15px;
+  width: 40%;
+}
+.txt-field2 {
+  position: absolute;
+  top: 180px;
+  left: 100vh;
+  height: 15px;
+  width: 40%;
+}
+.txt-field3 {
+  position: absolute;
+  top: 240px;
+  left: 100vh;
+  height: 100px;
+  width: 40%;
+}
+/* #skill1{
+    
+    top: 430px;
+    left: 100vh;
+    
+} */
+h3 {
+  position: relative;
+  top: 140px;
+  padding: 25px;
+}
+
+.checkbox input {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  top: 50px;
+  left: 25px;
+}
+.checkbox label {
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  bottom: 10px;
+  right: 140px;
+  font-style: bold ;
+  font-size: 18px;
+  background-color:darkslategrey;
+  color: white;
+  border:1px darkslategrey;
+  border-style: outset;
+
+}
+
+.display-services {
+  position: absolute;
+  width: 60vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
